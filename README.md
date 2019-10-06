@@ -13,7 +13,7 @@ To include GradientViewExtension into a Swift Package Manger package add the `de
 
 ```
 dependencies: [
-    .package(url: "https://github.com/robinlieb/GradientViewExtension.git", .branch("master"))
+    .package(url: "https://github.com/robinlieb/GradientViewExtension.git", from: "0.0.1")
 ]
 ```
 
@@ -38,7 +38,7 @@ You can also set the gradient type explicitly. Possible values are axial, radial
 
 ```swift
 var view = UIView()
-view.setGradientBackground(startColor: .black, endColor: .white, gradientType: GradientType.radial)
+view.setGradientBackground(startColor: .black, endColor: .white, gradientType: .radial)
 ```
 
 This extension can be used by all subclasses of UIView, i.g. UIButton:
