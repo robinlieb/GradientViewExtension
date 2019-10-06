@@ -17,6 +17,14 @@ dependencies: [
 ]
 ```
 
+### CocoaPods
+
+To include GradientViewExtension into your CocoaPods project add it into your `Podfile`:
+
+```
+pod 'GradientViewExtension', '~> 0.0.1'
+```
+
 ## Usage
 
 By default the extension draws an axial gradient.
